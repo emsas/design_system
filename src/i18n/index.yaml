@@ -1,0 +1,41 @@
+page:
+  index:
+    title:
+      en: The design system
+      es: El sistema de diseño
+    description:
+      en: foo
+      es: foo
+    links:
+      - label:
+          en: Principles
+          es: Principios
+        href:
+          en: /principles
+          es: /es/principios
+      - label:
+          en: Components
+          es: Componentes
+        href:
+          en: /components
+          es: /es/componentes
+      - label:
+          en: Foundations
+          es: Fundamentos
+        href:
+          en: /foundations
+          es: /es/fundamentos
+      - label:
+          en: Systems
+          es: Sistemas
+        href:
+          en: /systems
+          es: /es/sistemas
+  principles:
+    title:
+      en: The principles
+      es: Los principios
+  systems:
+    title:
+      en: The development systems
+      es: El sistema de desarrollo
