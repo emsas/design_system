@@ -2,40 +2,154 @@ page:
   index:
     title:
       en: The design system
-      es: El sistema de diseño
+      es: El Sistema de Diseño
     description:
-      en: foo
-      es: foo
+      en: It's the standardization of the design within the creative process that increases productivity in all the processes of the EMSAS company or Mobile Spaces s.a.s
+      es: Es la estandarización del diseño dentro de los proceso de creativos que incrementa la productividad en todo los procesos de la empresa EMSAS o Espacios Moviles s.a.s
     links:
       - label:
           en: Principles
-          es: Principios
+          es: Los principios
         href:
           en: /principles
           es: /es/principios
+        description:
+          en: The general rules
+          es: Las normas generales
       - label:
-          en: Components
-          es: Componentes
-        href:
-          en: /components
-          es: /es/componentes
-      - label:
-          en: Foundations
-          es: Fundamentos
+          en: The Foundations
+          es: Los Fundamentos
         href:
           en: /foundations
           es: /es/fundamentos
+        description:
+          en: Configurable elements
+          es: Los elementos configurables
       - label:
-          en: Systems
-          es: Sistemas
+          en: The Systems
+          es: Los Sistemas
         href:
           en: /systems
           es: /es/sistemas
+        description:
+          en: The workflow
+          es: El flujo de trabajo
+      - label:
+          en: The Components
+          es: Los Componentes
+        href:
+          en: /components
+          es: /es/componentes
+        description:
+          en: The pieces
+          es: Las piezas
   principles:
     title:
-      en: The principles
-      es: Los principios
+      en: The general rules
+      es: Las normas generales
+    description:
+      en: They're the fundamental basis of paradigms and methodologies
+      es: Son la base fundamental de los paradigmas como de las metodologías
+    items:
+      - label:
+          en: Reutilizable
+          es: Reutilizable
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Coherencia
+          es: Coherencia
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Cohesión
+          es: Cohesión
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Consistencia
+          es: Consistencia
+        description:
+          en: Reutilizable
+          es: Reutilizable
   systems:
     title:
       en: The development systems
       es: El sistema de desarrollo
+    description:
+      en: Cómo realizamos nuestro trabajo
+      es: Cómo realizamos nuestro trabajo
+    items:
+      - label:
+          en: Reutilizable
+          es: Reutilizable
+        description:
+          en: Reutilizable
+          es: Reutilizable
+  foundations:
+    title:
+      en: The basics of development
+      es: Los fundamentos del desarrollo
+    description:
+      en: Para preservar la coherencia visual en todos los trabajos desarrollados con la marca.
+      es: Para preservar la coherencia visual en todos los trabajos desarrollados con la marca.
+    items:
+      - label:
+          es: Colores
+          en: Colors
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Iconography
+          es: Icongrafia
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Tone & voices
+          es: Tone y voz
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Spaces
+          es: Espacio
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Shapes
+          es: Formas
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Layout
+          es: Diseño o geometria
+        description:
+          en: Reutilizable
+          es: Reutilizable
+      - label:
+          en: Typography
+          es: Tipografia
+        description:
+          en: Reutilizable
+          es: Reutilizable
+  components:
+    title:
+      en: The basics of development
+      es: Los fundamentos del desarrollo
+    description:
+      en: Los elementos visuales esenciales
+      es: Los elementos visuales esenciales
+    items:
+      - label:
+          es: Colores
+          en: Colors
+        description:
+          en: Reutilizable
+          es: Reutilizable

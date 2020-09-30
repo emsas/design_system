@@ -1,12 +1,12 @@
 import { useStaticQuery, graphql } from "gatsby";
 import { getLangugeTransform } from "../utils/i18n";
 
-export const useIndexI18n = (language) => {
+export const usePrincipleI18n = (language) => {
   const { i18NYaml } = useStaticQuery(graphql`
     query {
       i18NYaml {
         page {
-          index {
+          foundations {
             description {
               en
               es
@@ -15,11 +15,7 @@ export const useIndexI18n = (language) => {
               en
               es
             }
-            links {
-              href {
-                en
-                es
-              }
+            items {
               label {
                 en
                 es
@@ -34,6 +30,6 @@ export const useIndexI18n = (language) => {
       }
     }
   `);
-  const i18n = i18NYaml.page.index;
+  const i18n = i18NYaml.page.foundations;
   return getLangugeTransform(i18n, language);
 };
